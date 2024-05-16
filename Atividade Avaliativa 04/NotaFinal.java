@@ -14,7 +14,7 @@ public class NotaFinal {
 
         System.out.println("Digite as notas dos alunos:");
 
-        for(int i = 0; i < 3; i++){
+        for(int i = 0; i < 10; i++){
             System.out.print("Nota do " + (i + 1) + "° aluno: " );
             notas[i] = ler.nextDouble();
         }
@@ -33,7 +33,7 @@ public class NotaFinal {
             }
         }
 
-        double media = soma / 3;       
+        double media = soma / 10;       
        
         System.out.printf("\nA média das notas dos alunos é: %.2f ", media);
         System.out.println("\nA quantidade de alunos aprovado é: " + notasMaiores);
