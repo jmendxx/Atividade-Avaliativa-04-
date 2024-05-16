@@ -10,7 +10,7 @@ public class NotaFinal {
     public static void main(String[] args){
         Scanner ler = new Scanner(System.in);
 
-        double[] notas = new double[3];
+        double[] notas = new double[10];
 
         System.out.println("Digite as notas dos alunos:");
 
